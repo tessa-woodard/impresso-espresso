@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import BackgroundSection from '../components/Globals/BackgroundSection'
-import Contact from "../components/Home/Contact"
+// import Contact from "../components/Home/Contact"
 
 const ContactPage = ({ data }) => (
     <Layout>
@@ -15,7 +15,7 @@ const ContactPage = ({ data }) => (
             title="Contact Us"
             styleClass="default-background"
         />
-        <Contact />
+        {/* <Contact /> */}
     </Layout>
 )
 
