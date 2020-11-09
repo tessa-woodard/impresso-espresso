@@ -4,7 +4,7 @@ import Title from "../Globals/Title"
 export default function Contact() {
     return (
         <section className="contact py-5">
-            <Title title="contact us" />
+            <Title title="Contact Us" />
             <div className="row">
                 <div className="col-10 col-sm-8 col-md-6 mx-auto">
                     <form
