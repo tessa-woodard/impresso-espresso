@@ -24,15 +24,16 @@ const IndexPage = ({ data }) => (
 )
 
 export const query = graphql`
-{
-  img: file(relativePath:{eq: "default-background.jpeg" }){
-    childImageSharp {
-      fluid {
-        ...GatsbyImageSharpFluid_tracedSVG
+  {
+    img: file(relativePath: { eq: "default-background.jpeg" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
       }
     }
+    
   }
-}
 `
 
 export default IndexPage
