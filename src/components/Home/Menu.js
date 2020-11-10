@@ -47,7 +47,7 @@ export default class Menu extends Component {
                                         <button
                                             type="button"
                                             key={index}
-                                            className="btn btn-yellow text-capitalize m-3"
+                                            className="btn btn-white text-capitalize m-3"
                                             onClick={() => {
                                                 this.handleItems(category);
                                             }}
@@ -72,10 +72,10 @@ export default class Menu extends Component {
                                         <div className="flex-grow-1 px-3">
                                             <div className="d-flex justify-content-between">
                                                 <h6 className="mb-0">{node.title}</h6>
-                                                <h6 className="text-yellow mb-0">${node.price}</h6>
+                                                <h6 className="text-white mb-0">${node.price}</h6>
                                             </div>
 
-                                            <p className="text-muted">
+                                            <p className="text-dark">
                                                 <small>{node.description.description}</small>
                                             </p>
                                         </div>

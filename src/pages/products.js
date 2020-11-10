@@ -5,18 +5,18 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import BackgroundSection from '../components/Globals/BackgroundSection'
-// import Products from "../components/Home/Products"
+import Products from "../components/Home/Products"
 
 const IndexPage = ({ data }) => (
-    <Layout>
-        <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-        <BackgroundSection
-            img={data.img.childImageSharp.fluid}
-            title="Products"
-            styleClass="default-background"
-        />
-        {/* <Products /> */}
-    </Layout>
+  <Layout>
+    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <BackgroundSection
+      img={data.img.childImageSharp.fluid}
+      title="Products"
+      styleClass="default-background"
+    />
+    <Products />
+  </Layout>
 )
 
 export const query = graphql`
