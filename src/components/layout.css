@@ -36,19 +36,23 @@ h6 {
   letter-spacing: 0.3rem;
   font-weight: 400;
 }
+
 .cart-icon {
   cursor: pointer;
   color: var(--mainYellow);
   font-size: 2rem;
 }
+
 .btn-white {
   color: var(--mainWhite) !important;
   border-color: var(--mainWhite) !important;
 }
+
 .btn-white:hover {
   background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
 }
+
 .default-background {
   min-height: 100vh;
   display: flex;
@@ -59,6 +63,7 @@ h6 {
   background-size: cover;
   background-attachment: fixed;
 }
+
 .about-background {
   min-height: 60vh;
   display: flex;
@@ -69,12 +74,20 @@ h6 {
   background-size: cover;
   background-attachment: fixed;
 }
+
 .menu {
   background: var(--mainYellow);
 }
+
 .contact {
   background: var(--mainBlue);
 }
+
 .footer {
   background: var(--mainDark);
+}
+
+.coffee-bag > img{ 
+  height: 60px;
+  width: 60px;
 }
