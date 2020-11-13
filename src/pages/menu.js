@@ -28,6 +28,7 @@ export const query = graphql`
       }
     }
   }
+  
   menu: allContentfulCoffeeItem {
     edges {
       node {
