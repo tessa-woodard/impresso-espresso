@@ -9,7 +9,7 @@ import Menu from "../components/Home/Menu"
 
 const MenuPage = ({ data }) => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Our Menu" keywords={[`gatsby`, `application`, `react`]} />
     <BackgroundSection
       img={data.img.childImageSharp.fluid}
       title="Menu"

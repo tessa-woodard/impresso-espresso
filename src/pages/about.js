@@ -13,7 +13,7 @@ const AboutPage = ({ data }) => {
       <BackgroundSection
         img={data.img.childImageSharp.fluid}
         title="About Us"
-        styleClass="about-background"
+        styleClass="default-background"
       />
       <Info />
     </Layout>
@@ -29,6 +29,7 @@ export const query = graphql`
         }
       }
     }
+    
   }
 `
 

@@ -4,18 +4,12 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import BackgroundSection from '../components/Globals/BackgroundSection'
-// import Hero from '../components/Globals/Hero'
+import Hero from '../components/Globals/Hero'
 
-const IndexPage = ({ data }) => (
+const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    {/* <Hero /> */}
-    <BackgroundSection
-      img={data.img.childImageSharp.fluid}
-      title="Impresso Espresso"
-      styleClass="default-background"
-    />
+    <Hero />
   </Layout>
 )
 

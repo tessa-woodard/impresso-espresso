@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&display=swap%27');
+
 :root {
   --mainRed: #45230f;
   --mainYellow: #955f31;
@@ -9,7 +11,7 @@
 body {
   background: var(--mainWhite);
   color: var(--mainDark);
-  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  font-family: 'Bebas Neue', cursive;
 }
 h1,
 h2,
@@ -17,8 +19,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Courier New", Courier, monospace !important;
-  letter-spacing: 0.25rem !important;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 0.5rem !important;
 }
 .text-dark {
   color: var(--mainDark) !important;
@@ -54,7 +56,7 @@ h6 {
 }
 
 .default-background {
-  min-height: 100vh;
+  min-height: 90.7vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,10 +83,6 @@ h6 {
 
 .contact {
   background: var(--mainBlue);
-}
-
-.footer {
-  background: var(--mainDark);
 }
 
 .coffee-bag > img{ 

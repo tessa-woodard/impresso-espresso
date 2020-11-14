@@ -8,15 +8,15 @@ import BackgroundSection from '../components/Globals/BackgroundSection'
 import ContactUs from "../components/Home/ContactUs"
 
 const ContactPage = ({ data }) => (
-    <Layout>
-        <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-        <BackgroundSection
-            img={data.img.childImageSharp.fluid}
-            title="Contact Us"
-            styleClass="default-background"
-        />
-        <ContactUs />
-    </Layout>
+  <Layout>
+    <SEO title="Contact Us" keywords={[`gatsby`, `application`, `react`]} />
+    <BackgroundSection
+      img={data.img.childImageSharp.fluid}
+      title="Contact Us"
+      styleClass="default-background"
+    />
+    <ContactUs />
+  </Layout>
 )
 
 export const query = graphql`
