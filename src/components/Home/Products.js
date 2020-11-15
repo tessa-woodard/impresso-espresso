@@ -12,7 +12,7 @@ const getProducts = graphql`
             title
             price
             image {
-              fluid(maxHeight: 420) {
+              fluid(maxHeight: 400) {
                 src
                 ...GatsbyContentfulFluid_tracedSVG
               }
