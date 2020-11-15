@@ -8,6 +8,7 @@
   --mainWhite: #fff;
   --mainDark: #000;
 }
+
 body {
   background: var(--mainWhite);
   color: var(--mainDark);
@@ -22,6 +23,7 @@ h6 {
   font-family: 'Bebas Neue', cursive;
   letter-spacing: 0.5rem !important;
 }
+
 .text-dark {
   color: var(--mainDark) !important;
 }
@@ -66,17 +68,6 @@ h6 {
   background-attachment: fixed;
 }
 
-.about-background {
-  min-height: 60vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(rgba(255, 158, 9, 0.5), rgba(255, 158, 9, 0.5));
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
 .menu {
   background: var(--mainYellow);
 }
@@ -86,6 +77,11 @@ h6 {
 }
 
 .coffee-bag > img{ 
+  height: 60px;
+  width: 60px;
+}
+
+.coffee-cup > img{
   height: 60px;
   width: 60px;
 }

@@ -2,26 +2,26 @@ import React from 'react'
 import styled from "styled-components"
 
 import coffee from '../videos/coffee.mp4'
-import Title from "../Globals/Title"
+import Title from "./Title"
 
-const Hero = () => {
+const HPVideo = () => {
     return (
-        <HeroContainer>
-            <HeroBg>
+        <HPVideoContainer>
+            <HPVideoBg>
                 <VideoBg src={coffee} autoPlay loop muted playsInline type="video/mp4" />
-            </HeroBg>
-            <HeroContent>
-                <HeroItems>
+            </HPVideoBg>
+            <HPVideoContent>
+                <HPVideoItems>
                     <Title title="Impresso Espresso" />
-                </HeroItems>
-            </HeroContent>
-        </HeroContainer>
+                </HPVideoItems>
+            </HPVideoContent>
+        </HPVideoContainer>
     )
 }
 
-export default Hero
+export default HPVideo
 
-const HeroContainer = styled.div`
+const HPVideoContainer = styled.div`
     background: #ffff;
     display: flex;
     justify-content: center;
@@ -48,7 +48,7 @@ const HeroContainer = styled.div`
     }
 `
 
-const HeroBg = styled.div`
+const HPVideoBg = styled.div`
     position: absolute;
     z-index: 3;
     top: 0;
@@ -66,20 +66,19 @@ const VideoBg = styled.video`
     object-fit: cover;
 `
 
-const HeroContent = styled.div`
+const HPVideoContent = styled.div`
     z-index: 3;
     height: calc(100vh - 80px);
     height: 90.7vh;
     padding: 0rem calc((100vw - 1300px) / 2);
 `
 
-const HeroItems = styled.div`
+const HPVideoItems = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    // height: 100vh;
     height: 90.7vh;
     padding: 0;
     color: #ffff;

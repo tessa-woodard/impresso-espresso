@@ -19,7 +19,7 @@ export default function Product({ product }) {
                             data-item-url="https://impresso-expresso.netlify.app/products"
                         >
                             Add To Cart
-            </button>
+                        </button>
                     </div>
                 </div>
             </div>
