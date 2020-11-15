@@ -4,7 +4,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import BackgroundSection from '../components/Globals/BackgroundSection'
+import BackgroundSection from "../components/Globals/BackgroundSection"
 import ContactUs from "../components/Home/ContactUs"
 
 const ContactPage = ({ data }) => (
@@ -28,7 +28,6 @@ export const query = graphql`
         }
       }
     }
-    
   }
 `
 

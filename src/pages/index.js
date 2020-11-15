@@ -4,20 +4,26 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import HPVideo from '../components/Globals/HPVideo'
-// import Community from '../components/Home/Community'
+import BackgroundSection from "../components/Globals/BackgroundSection"
+import Video from "../components/Globals/Video"
+import OurCommunity from "../components/Home/OurCommunity"
 
-const IndexPage = () => (
+const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <HPVideo />
-    {/* <Community /> */}
+    <BackgroundSection
+      img={data.img.childImageSharp.fluid}
+      title="Impresso Espresso"
+      styleClass="default-background"
+    />
+    <OurCommunity />
+    <Video />
   </Layout>
 )
 
 export const query = graphql`
   {
-    img: file(relativePath: { eq: "default-background.jpeg" }) {
+    img: file(relativePath: { eq: "home-background.jpeg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_tracedSVG
@@ -30,7 +36,7 @@ export const query = graphql`
         node {
           id
           title
-         description {
+          description {
             description
           }
           image {

@@ -1,27 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&display=swap%27');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&display=swap%27");
 
 :root {
   --mainRed: #45230f;
   --mainYellow: #955f31;
+  --mainBrown: #6f4e37;
   --mainBlue: #3b555d;
   --mainGray: #233237;
   --mainWhite: #fff;
   --mainDark: #000;
+  --mainCream: #ede0c9;
+  --mainFont: #696969;
 }
 
 body {
   background: var(--mainWhite);
   color: var(--mainDark);
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
 }
-h1,
+h1 {
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 0.3rem;
+  font-weight: 400;
+  font-size: 8rem;
+}
 h2,
-h3,
-h4,
+h3 {
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 0.2rem !important;
+  font-weight: 300;
+}
+h4 {
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 0.2rem !important;
+  font-weight: lighter;
+  color: var(--mainFont);
+}
 h5,
 h6 {
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 0.5rem !important;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 0.3rem !important;
 }
 
 .text-dark {
@@ -39,6 +56,7 @@ h6 {
 .title {
   letter-spacing: 0.3rem;
   font-weight: 400;
+  font-size: 8rem;
 }
 
 .cart-icon {
@@ -73,15 +91,23 @@ h6 {
 }
 
 .contact {
-  background: var(--mainBlue);
+  background: var(--mainBrown);
 }
 
-.coffee-bag > img{ 
+.about {
+  background: var(--mainCream);
+}
+
+.product {
+  background: var(--mainGray);
+}
+
+.coffee-bag > img {
   height: 60px;
   width: 60px;
 }
 
-.coffee-cup > img{
+.coffee-cup > img {
   height: 60px;
   width: 60px;
 }

@@ -1,50 +1,19 @@
-import React from 'react'
-import Title from "../Globals/Title"
-import { StaticQuery, graphql } from "gatsby"
+import React from "react"
+import Img from "gatsby-image"
 
-const getCommunity = graphql`
-  {
-    community: allContentfulCommunity {
-        edges {
-          node {
-            id
-            title
-           description {
-              description
-            }
-            image {
-              fixed(width: 100, height: 100) {
-                src
-              }
-            }
-        }
-    }
-    }
-  }
-`
-
-export default function Community() {
-    return (
-        <StaticQuery
-            query={getCommunity}
-            render={data => {
-                return (
-                    <section className="py-5">
-                        <div className="container">
-                            <Title title="our products" />
-                            <div className="row">
-                                    
-                                    
-                                            <h6 className="mb-0">{getCommunity.community.edges.node.title}</h6>
-                                            <h6 className="text-white mb-0">{getCommunity.community.edges.node.description}</h6>
-                                        
-                                    )
-                                
-                            </div>
-                        </div>
-                    </section>
-                )
-            }}
-        />
-    )
+export default function Community({ community }) {
+  return (
+    <div className="col-10 col-sm-8 col-md-6 col-lg-4  mx-auto my-3">
+      <div className="card" style={{ minHeight: "100%" }}>
+        <div style={{ maxHeight: "900px" }}>
+          <Img fluid={community.image.fluid} className="card-img-top" />
+          <div className="card-body text-center">
+            <h3>{community.title}</h3>
+            <br />
+            <h4>{community.description.description}</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
 }
