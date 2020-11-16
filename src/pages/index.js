@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 import BackgroundSection from "../components/Globals/BackgroundSection"
 import Video from "../components/Globals/Video"
 import OurCommunity from "../components/Home/OurCommunity"
+import CoffeeMachine from "../components/Globals/CoffeeMachine/CoffeeMachine"
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -18,6 +19,7 @@ const IndexPage = ({ data }) => (
     />
     <OurCommunity />
     <Video />
+    <CoffeeMachine />
   </Layout>
 )
 

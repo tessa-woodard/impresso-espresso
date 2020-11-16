@@ -43,7 +43,7 @@ export default class Menu extends Component {
           <div className="container">
             <Title title="our menu" />
             <div className="row mb-5">
-              <div className="col-10  mx-auto text-center">
+              <div className="col-8 mx-auto text-center">
                 {this.state.categories.map((category, index) => {
                   return (
                     <button
@@ -78,7 +78,7 @@ export default class Menu extends Component {
                       </div>
 
                       <p className="text-dark">
-                        <small>{node.description.description}</small>
+                        <medium>{node.description.description}</medium>
                       </p>
                     </div>
                   </div>

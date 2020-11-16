@@ -33,7 +33,7 @@ export default function OurCommunity() {
         return (
           <section className="community py-5">
             <div className="container">
-              <Title title="our community" />
+              <Title title="~ our community ~" />
               <div className="row">
                 {data.community.edges.map(({ node: community }) => {
                   return <Community key={community.id} community={community} />
