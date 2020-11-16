@@ -13,7 +13,7 @@
 }
 
 body {
-  background: var(--mainWhite);
+  background: var(--mainRed);
   color: var(--mainDark);
   font-family: "Bebas Neue", cursive;
 }
@@ -110,4 +110,16 @@ h6 {
 .coffee-cup > img {
   height: 60px;
   width: 60px;
+}
+
+.beverage {
+  background: var(--mainRed);
+}
+
+.card {
+  border: none;
+}
+
+.community {
+  background: var(--mainRed);
 }

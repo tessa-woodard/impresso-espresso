@@ -1,5 +1,6 @@
 .coffee-coffee-container {
   padding: 2rem 0;
+  background: var(--mainRed);
 }
 
 .coffee-container {
@@ -284,57 +285,4 @@
   bottom: -25px;
   left: -8px;
   background-color: #000;
-}
-
-body {
-  justify-content: center;
-}
-.quote {
-  text-align: center;
-  font-size: 3.3rem;
-  top: -4vh;
-  margin: auto;
-  border: 2px solid black;
-  max-width: 55%;
-  position: relative;
-  bottom: calc(200% - 320px);
-  left: calc(25% - 50px);
-}
-blockquote {
-  color: black;
-  font-style: italic;
-  position: relative;
-  z-index: 20;
-}
-.left {
-  position: absolute;
-  top: -50px;
-  left: -20px;
-  width: 150px;
-  text-align: left;
-  z-index: 10;
-  font-size: 5rem;
-  color: #369;
-  line-height: 200px;
-}
-.right {
-  position: absolute;
-  bottom: -50px;
-  right: -20px;
-  width: 150px;
-  text-align: right;
-  z-index: 10;
-  font-size: 5rem;
-  color: #369;
-  line-height: 200px;
-}
-small {
-  font-size: 1.7rem;
-  color: #369;
-  position: relative;
-  z-index: 20;
-}
-small:before {
-  content: "\2014 \0020";
-  width: 5px;
 }

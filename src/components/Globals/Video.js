@@ -19,6 +19,7 @@ const Video = () => {
 export default Video
 
 const VideoContent = styled.video`
+  padding: -10rem;
   z-index: -1;
   width: 100%;
   height: 75vh;

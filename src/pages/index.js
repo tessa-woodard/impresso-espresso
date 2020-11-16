@@ -8,6 +8,7 @@ import BackgroundSection from "../components/Globals/BackgroundSection"
 import Video from "../components/Globals/Video"
 import OurCommunity from "../components/Home/OurCommunity"
 import CoffeeMachine from "../components/Globals/CoffeeMachine/CoffeeMachine"
+import Beverages from "../components/Home/Beverages"
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -20,6 +21,7 @@ const IndexPage = ({ data }) => (
     <OurCommunity />
     <Video />
     <CoffeeMachine />
+    <Beverages />
   </Layout>
 )
 
