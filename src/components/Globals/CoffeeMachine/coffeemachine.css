@@ -57,8 +57,8 @@
   top: calc(50% - 25px);
   left: calc(50% - 25px);
   border-radius: 50%;
-  background-color: #9acfc5;
-  border: 5px solid #43beae;
+  background-color: #116466;
+  border: 5px solid #000;
   box-sizing: border-box;
 }
 
@@ -273,7 +273,7 @@
   position: absolute;
   bottom: 25px;
   left: calc(50% - 47.5%);
-  background-color: #41bdad;
+  background-color: #116466;
   border-radius: 10px;
 }
 

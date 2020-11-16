@@ -11,7 +11,7 @@ const getBeverages = graphql`
           id
           title
           image {
-            fluid(maxHeight: 400) {
+            fluid(maxHeight: 300) {
               src
               ...GatsbyContentfulFluid_tracedSVG
             }
