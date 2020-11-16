@@ -19,9 +19,9 @@ const Video = () => {
 export default Video
 
 const VideoContent = styled.video`
-  margin: 0 auto;
+  background: var(--mainRed);
   width: 100%;
   height: 80vh;
-  /* -o-object-fit: cover; */
-  /* object-fit: cover; */
+  margin-bottom: -0.5rem;
+  padding: 0;
 `
