@@ -86,3 +86,13 @@
 ![](./assets/about.png)
 
 ![](./assets/aboutpt2.png)
+
+<br/>
+
+### On the contact page the user will be able to fill out the contact form, that can be used for questions, reservations, or feedback that will be sent to the Impresso Espresso team.
+
+<br />
+
+![](./assets/contact.png)
+
+![](./assets/contactpt2.png)
