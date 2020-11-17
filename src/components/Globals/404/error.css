@@ -1,9 +1,9 @@
 .milk-container {
-  background-color: var(--mainDark);
+  background-color: var(--mainFont);
 }
 
 .milk-404 {
-  max-height: 100vh;
+  max-height: 90.7vh;
 }
 
 #mouth-frown {
