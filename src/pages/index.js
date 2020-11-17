@@ -5,8 +5,9 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import BackgroundSection from "../components/Globals/BackgroundSection"
-import Video from "../components/Globals/Video"
 import OurCommunity from "../components/Home/OurCommunity"
+import Video from "../components/Globals/Video"
+import Reviews from "../components/Globals/Reviews/Reviews"
 import CoffeeMachine from "../components/Globals/CoffeeMachine/CoffeeMachine"
 import Beverages from "../components/Home/Beverages"
 
@@ -20,6 +21,7 @@ const IndexPage = ({ data }) => (
     />
     <OurCommunity />
     <Video />
+    <Reviews />
     <CoffeeMachine />
     <Beverages />
   </Layout>

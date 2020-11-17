@@ -23,5 +23,5 @@ const VideoContent = styled.video`
   width: 100%;
   height: 80vh;
   margin-bottom: -0.5rem;
-  padding: 0;
+  padding: 2rem 0;
 `
