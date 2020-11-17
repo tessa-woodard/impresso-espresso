@@ -45,7 +45,7 @@
 
 <br />
 
-### Let's dive into the menu page! With the menu page you can easily filter through the different menu items by clicking, coffee, pastry, burrito, etc..
+### Let's dive into the menu page! With the menu page you can easily filter through the different menu items by clicking, coffee, pastry, burrito, etc.. Each menu item is display with a picture, title, description as well as a price.
 
 <br />
 
@@ -56,3 +56,33 @@
 ![](./assets/menupt3.png)
 
 ![](./assets/menupt4.png)
+
+<br />
+
+### The products page displays available items that are available for purchase, which you can complete that purchase using the snipcart shopping cart! Each product is displayed with a picture, title and a price.
+
+<br />
+
+![](./assets/products.png)
+
+![](./assets/productspt2.png)
+
+![](./assets/productspt3.png)
+
+![](./assets/productspt4.png)
+
+![](./assets/productspt5.png)
+
+![](./assets/productspt6.png)
+
+![](./assets/cart.png)
+
+<br />
+
+### In the about page, we go into detail about Impresso Espresso's mission on serving customers excellent quality coffee!
+
+<br />
+
+![](./assets/about.png)
+
+![](./assets/aboutpt2.png)
