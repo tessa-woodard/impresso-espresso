@@ -13,6 +13,7 @@
 - Programming Language - JavaScript
 - Frontend - React & Styled Components
 - Framework - Gatsby
+- Backend - GraphQL
 - Data Management - Contentful
 - Snipcart - Shopping Cart
 - Contact Form - Formspree.io
