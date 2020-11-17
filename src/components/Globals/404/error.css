@@ -1,6 +1,11 @@
+.milk-container {
+  background-color: var(--mainDark);
+}
+
 .milk-404 {
   max-height: 100vh;
 }
+
 #mouth-frown {
   visibility: hidden;
 }
