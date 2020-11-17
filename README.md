@@ -4,6 +4,10 @@
 
 <br />
 
+### Live production site available [here](https://impresso-expresso.netlify.app/)!
+
+<br />
+
 ### The Stack
 
 - Programming Language - JavaScript
@@ -38,3 +42,17 @@
 ![](./assets/beveragept2.png)
 
 ![](./assets/footer.png)
+
+<br />
+
+### Let's dive into the menu page! With the menu page you can easily filter through the different menu items by clicking, coffee, pastry, burrito, etc..
+
+<br />
+
+![](./assets/menu.png)
+
+![](./assets/menupt2.png)
+
+![](./assets/menupt3.png)
+
+![](./assets/menupt4.png)
