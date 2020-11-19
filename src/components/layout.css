@@ -65,6 +65,16 @@ h6 {
   font-size: 2rem;
 }
 
+.btn-yellow {
+  color: var(--mainGray) !important;
+  border-color: var(--mainGray) !important;
+}
+
+.btn-yellow:hover {
+  background: var(--mainGray) !important;
+  color: var(--mainWhite) !important;
+}
+
 .btn-white {
   color: var(--mainWhite) !important;
   border-color: var(--mainWhite) !important;
