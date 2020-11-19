@@ -58,6 +58,10 @@
 
 ![](./assets/menupt4.png)
 
+![](./assets/menupt5.png)
+
+![](./assets/menupt6.png)
+
 <br />
 
 ### The products page displays available items that are available for purchase, which you can complete that purchase using the snipcart shopping cart! Each product is displayed with a picture, title and a price.
