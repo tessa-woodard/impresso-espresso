@@ -15,7 +15,7 @@
 - Framework - Gatsby
 - Backend - GraphQL
 - Data Management - Contentful
-- Snipcart - Shopping Cart
+- Shopping Cart - Snipcart
 - Contact Form - Formspree.io
 - Styling - Bootstrap & CSS
 - Hosting - Netlify
