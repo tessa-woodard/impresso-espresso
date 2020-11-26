@@ -26,7 +26,7 @@
 
 <br />
 
-### This is the homepage filled with what's going on at Impresso Espresso, customer reviews and some chalk board images of the coffee drinks available.
+### This is the homepage, filled with what's going on at Impresso Espresso, customer reviews and some chalk board images of the coffee drinks available.
 
 <br />
 
