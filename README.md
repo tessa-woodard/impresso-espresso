@@ -1,10 +1,7 @@
-# Welcome to Impresso Espresso
+# Welcome to Impresso Espresso (Legacy/Deprecated)
+This is the original version of Impresso Espresso. It was built 5 years ago and is no longer actively maintained. Please check out the [revamped version](https://github.com/tessa-woodard/impresso-espresso-revamped) for the updated project with modern technologies and improved design.
 
 ## ~ Your new local coffee shop website! ~
-
-<br />
-
-### Live production site available [here](https://impresso-expresso.netlify.app/)!
 
 <br />
 
